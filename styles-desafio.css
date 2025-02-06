@@ -1,0 +1,149 @@
+* {
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-desafio {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 32px;
+}
+
+.button-heade {
+    background: #6FBF44;
+    border-radius: 15px;
+    border: 1px solid #4CB538;
+    width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+}
+.button-heade:hover {
+  opacity: 0.8;
+    }
+
+    .button-heade:active {
+        opacity: 0.6;
+          }
+
+
+
+
+.img-css {
+    width: 595px;
+    height: 500px;
+    margin-left: 121px;
+    display: inline-block;
+    margin-top: 163px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    width: 582px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.link-learn {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6FBF44;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 20px;
+    width: 493px;
+}
+
+@media screen and (max-width: 1255px) {
+
+    section {
+        width: 100%;
+        height: 50%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .container-right {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+
+    .img-css {
+        position: static;
+    }
+
+
+    header :not(button) {
+        display: none;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+        width: auto;
+        margin: 58px 50px 0 50px;
+        text-align: center;
+
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 33px;
+        width: auto;
+        margin: 15px 40px;
+        text-align: center;
+    }
+
+    .link-learn {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .img-css {
+        max-width: 100%;
+        height: 100%;
+        margin: -680px auto;
+    }
+
+    .button-heade {
+        float: right;
+        margin-right: 30px;
+    }
+
+
+
+}
